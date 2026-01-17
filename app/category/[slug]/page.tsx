@@ -1,6 +1,6 @@
-import { supabase } from '@/lib/supabase';
-import ProductGrid from '@/components/ProductGrid';
-import CategoryFilters from '@/components/CategoryFilters';
+import { supabase } from '../../../lib/supabase';
+import ProductGrid from '../../../components/ProductGrid';
+import CategoryFilters from '../../../components/CategoryFilters';
 
 export default async function CategoryPage({ params, searchParams }) {
   const { slug } = params;

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300 transition;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-6;
+}
+
+.loading-spinner {
+  @apply animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600;
+}

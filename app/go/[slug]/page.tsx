@@ -1,5 +1,5 @@
-import { supabase } from '@/lib/supabase';
-import { trackEvent } from '@/lib/analytics';
+import { supabase } from '../../../lib/supabase';
+import { trackEvent } from '../../../lib/analytics';
 import { redirect } from 'next/navigation';
 
 export default async function RedirectPage({ params }) {
