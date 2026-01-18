@@ -1,11 +1,21 @@
-"dependencies": {
-  "next": "^14.0.0",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "tailwindcss": "^3.3.0",
-  "autoprefixer": "^10.4.16",
-  "postcss": "^8.4.31",
-  "@supabase/supabase-js": "^2.38.4",
-  "@supabase/auth-helpers-nextjs": "^0.8.7",
-  "@vercel/analytics": "^1.1.1"
+{
+  "name": "feast-fusion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@vercel/analytics": "^1.1.1",
+    "next": "^14.2.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
 }
