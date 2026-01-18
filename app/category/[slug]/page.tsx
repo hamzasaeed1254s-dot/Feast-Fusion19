@@ -23,10 +23,11 @@ export default async function CategoryPage({ params, searchParams }) {
     .single();
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">{category?.name}</h1>
-      <CategoryFilters />
-      <ProductGrid products={products} loading={!products} />
-    </div>
-  );
+    return (
+  <div className="container mx-auto px-4 py-8">
+    <h1 className="text-3xl font-bold mb-6">{category.name}</h1>
+    <CategoryFilters />
+    <ProductGrid products={products} loading={!products && !error} />
+  </div>
+);
 }

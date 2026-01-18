@@ -1,5 +1,5 @@
-import { supabase } from '../../../lib/supabase';
-import ProductGrid from '../../../components/ProductGrid';
+import { supabase } from '../lib/supabase';
+import ProductGrid from '../components/ProductGrid';
 import Link from 'next/link';
 
 export default async function Home() {
