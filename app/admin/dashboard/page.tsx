@@ -1,5 +1,5 @@
-import { supabase } from '../../../lib/supabase';
-import AdminProductForm from '../../../components/AdminProductForm';
+import { supabase } from '@/lib/supabase';
+import AdminProductForm from '@/components/AdminProductForm';
 import { redirect } from 'next/navigation';
 
 export default async function AdminDashboard() {
